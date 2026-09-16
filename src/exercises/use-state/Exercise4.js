@@ -5,7 +5,7 @@ Yêu cầu:
 Danh sách sản phẩm mẫu có nút "Thêm vào giỏ".
 Nếu sản phẩm chưa có trong giỏ: thêm vào với quantity = 1.
 Nếu sản phẩm đã có: tăng quantity lên 1.
-Bảng giỏ hàng: Có nút + và - số lượng (nếu giảm về 0 thì tự xóa khỏi giỏ), nút "Xóa hẳn".
+Bảng giỏ hàng: Có nút + và - số lượng (nếu giảm về 0 thì tự xóa khỏi giỏ), nút "Xóa".
 Tính tổng tiền tự động (dùng Derived State với .reduce()).
 */
 

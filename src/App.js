@@ -2,6 +2,7 @@ import StateEx01 from "./exercises/use-state/Exercise1";
 import StateEx02 from "./exercises/use-state/Exercise2";
 import StateEx03 from "./exercises/use-state/Exercise3";
 import StateEx04 from "./exercises/use-state/Exercise4";
+import StateEx05 from "./exercises/use-state/Exercise5";
 
 
 const exercises = [
@@ -22,8 +23,13 @@ const exercises = [
    },
    {
       id: "ex4",
-      label: "Bài 4: Shopping Cart (useState)",
+      label: "Bài 4: Shopping Cart",
       component: <StateEx04 />,
+   },
+   {
+      id: "ex5",
+      label: "Bài 5: Task & Bug Tracker",
+      component: <StateEx05 />,
    },
 ];
 

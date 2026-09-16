@@ -1,6 +1,7 @@
 import StateEx01 from "./exercises/use-state/Exercise1";
 import StateEx02 from "./exercises/use-state/Exercise2";
 import StateEx03 from "./exercises/use-state/Exercise3";
+import StateEx04 from "./exercises/use-state/Exercise4";
 
 
 const exercises = [
@@ -19,6 +20,11 @@ const exercises = [
       label: "Exercises 3: Multi-step Registration Form",
       component: <StateEx03 />,
    },
+   {
+      id: "ex4",
+      label: "Bài 4: Shopping Cart (useState)",
+      component: <StateEx04 />,
+   },
 ];
 
 function App() {
@@ -28,7 +34,7 @@ function App() {
             <h1 style={{ textAlign: "center" }}>Learning React JS with me</h1>
          </header>
          <main className="App-body" style={{padding: '15px 30px', }}>
-            <h2>Chapter I: State Hook (useState())</h2>
+            <h2>Topic I: State Hook (useState())</h2>
             {exercises.map((exercise) => {
                return (
                   <div key={exercise.id} style={{paddingInline: 45}}>

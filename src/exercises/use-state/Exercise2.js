@@ -80,8 +80,6 @@ function App() {
       setSearchData((prev) => ({ ...prev, [name]: value }));
    };
 
-   console.log(searchData.term.trim().toLocaleLowerCase());
-
    const filteredProducts = PRODUCTS_DATA.filter((product) => {
       const matchesCategory =
          searchData.category === "Tất cả" ||
